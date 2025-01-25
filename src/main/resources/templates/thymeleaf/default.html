@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-BR">
+<body>
+	<div th:fragment="default-header" class="header">
+		<div id="socials-flex">
+			<a class="social-btn" href="https://github.com/celso-z"><img src="./static/img/github-icon.svg"></a>
+		    <a class="social-btn" href="https://linkedin.com/in/celso-zacarias"><img src="./static/img//linkedin-icon.svg"></a>
+		</div>
+		<h1>Celso Zacarias</h1>
+		<nav>
+			<a class="nav-links" href="#">Início</a>
+			<a class="nav-links" href="about.html">Sobre mim</a>
+		    <a class="nav-links" href="blog.html">Blog</a>
+		</nav>
+	</div>
+	<div th:fragment="default-footer" class="footer">
+		<div class="footer-content">
+			<div class="footer-row">
+				<p class="footer-header">EXPLORE</p>
+				<a class="footer-link" href="#">Inicio</a>
+				<a class="footer-link" href="about.hmtl">Sobre Mim</a>
+				<a class="footer-link" href="blog.html">Blog</a>
+			</div>
+		    <div class="footer-row">
+		        <p class="footer-header">REDES</p>
+		        <a class="footer-link" href="https://github.com/celso-z">Github</a>
+		        <a class="footer-link" href="www.linkedin.com/in/celso-zacarias">LinkedIn</a>
+		    	<a class="footer-link" href="#">Peertube</a>
+			</div>
+		</div>
+		<p id="footer-disclaimer">© 2025 Celso Zacarias, todos os direitos reservados.</p>
+	</div>
+</body>
