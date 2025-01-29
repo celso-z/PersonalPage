@@ -5,5 +5,5 @@ import java.util.List;
 
 public interface TemplateEngineStrategy {
 	public String generatePage(String templateName, Map<String, Object> context);
-	public List<String> getTemplates();
+	public List<String> getTemplates() throws Exception;
 }
